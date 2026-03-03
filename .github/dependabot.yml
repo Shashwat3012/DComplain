@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"        # change to your ecosystem
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "17:00"
+      timezone: "Asia/Kolkata"
+    open-pull-requests-limit: 10
